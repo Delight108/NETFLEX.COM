@@ -1,0 +1,614 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+
+:root{
+    --background-1: green;
+    --background-2: blue;
+    --background-3: black;
+    --background-4: brown;
+    --color: black;
+    --color-2: red;
+    --color-3: royalblue;
+    --color-4: cadetblue;
+    --primary-color-1: burlywood;
+    --light-color: white;
+    --light-color-2: whitesmoke;
+}
+
+
+*{ 
+    margin:0;
+    padding: 0;  
+    box-sizing: border-box;
+    
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background: antiquewhite;
+ }
+
+ a{
+    
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* for the navigation or header section*/
+/*(pls dont change this code if not necessary)*/
+
+/* this is the header's bakground image */
+
+#nav{
+    background-image: url("/images/HOME\ BG/pexels-rahul-pandit-1659038.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+}
+
+.blue{
+    color: blue;
+    background-color: transparent;
+    position: relative;
+}
+
+ul{
+    list-style: none;
+}
+
+.search-btn{
+    display: flex;
+    z-index: -1;
+    position: fixed;
+    top: 16%;
+    width: 80%;
+    left: 14%;
+    border: 3px solid black;
+    border-radius: 15px;
+    font-size: 1rem;
+    color: purple;
+    overflow: hidden;
+    font-weight: 500;
+    background-color: #fff;
+}
+
+
+.search-button-menu{
+    display: flex;
+    background: transparent;
+    width: 10%;
+    height: 1%;
+    outline: -1;
+    border: 0;
+}
+
+
+/* the h1 element */
+#icon{
+    color: aqua;
+    position: absolute;
+    bottom: 9%;
+    left: 11%;  
+    cursor: pointer;
+}
+
+/* for the img(the n logo)*/
+.logo{
+    height: 3rem;
+    width: 3rem;
+    position: absolute;
+    left: 7%;
+    cursor: pointer;
+}
+
+#main-img{
+    top: .7rem;
+}
+
+/* for the ul items*/
+.menu{
+    gap: 1rem;
+    color: whitesmoke;
+}
+
+#first-list{
+    display: flex;
+    position:fixed;
+    top: 4%;
+    left: 65%;
+}
+.menu::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: white;
+    display: block;
+    margin: auto;
+    transition: 0.3s;
+}
+
+li ul:hover::after{
+    width: 100%;
+    
+}
+/* the menu bar*/
+.fa-bars {
+   margin-top: .8rem; 
+   margin-left: .5rem;
+}
+/* end of the header code*/
+
+
+
+.search-button{
+    display: flex;
+    background: transparent;
+    width: 4%;
+    height: 1%;
+    outline: -1;
+    border: 0;
+}
+
+/*side navigation code*/
+.sidenav{
+    background-color: rgb(74, 40, 167);
+    width: 3.4%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    top: 3.7rem;
+    /*z-index: ;*/
+    
+}
+
+.sidenav:hover{
+    display: flex;
+    width: 4.4%;
+}
+
+.side{
+    display: flex;
+    flex-direction: column;  
+    color: aliceblue;
+    
+}
+
+.fa-home{
+    margin-top: 7rem;
+    margin-left: .6rem;
+}
+
+.fa-video-camera{ 
+    margin-top: 12.9rem;
+    margin-left: -2rem;
+}
+
+.fa-music{
+    margin-top: 19.7rem;
+    margin-left: -1.9rem; 
+}
+
+
+.fa-newspaper-o{
+    margin-left: -2.1rem; 
+    margin-top: 26rem; 
+    color: #fff; 
+}
+
+.fa-envelope-o{
+    margin-left: -1.3rem; 
+    margin-top: 29.4rem; 
+    color: #fff;
+    visibility: hidden; 
+}
+
+
+.invisible{
+    visibility: hidden;
+}
+
+
+
+/* top part of the video page */
+
+
+
+.movie-info-container{
+    display: flex;
+    box-sizing: border-box;
+    position: absolute;
+    top: 18%;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+}
+
+.movie-info{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    gap: 4%;
+    width: 90%;
+}
+
+.top-infos{
+    border: 2.5px solid rgb(114, 114, 150);
+    border-radius: 10px;
+    height: fit-content;
+}
+
+
+
+.content{
+    display: flex;
+}
+
+.list-img{
+    width: 25%;
+    margin-left: 1.5px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 1px 0px;
+    height: fit-content;
+}
+
+.info-text{
+   font-size: small;
+   width: 100%;
+   margin-left: .5rem;
+}
+
+.info-intro{
+    margin-bottom: -2rem;
+}
+
+
+/* movie genre section*/
+
+.main-video-section{
+    display: flex;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 6%;
+    z-index: -1;
+}
+
+.sci-fi-img{
+    width: 80%;
+    height: 50%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.second-ul{
+    display: block;
+    position: absolute;
+    background: brown;
+
+}
+
+
+
+.column-list{
+    display: flex;
+    width: 15.85rem;
+    height: 2rem;
+    margin-bottom: 1%;
+    color: red;
+    background: black;
+    padding-top: .4rem;
+    cursor: pointer;
+    
+}
+
+    .numbers{
+        font-weight: bolder;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: larger;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        cursor: pointer;
+    }
+
+
+    .end-text{
+        display: flex;
+        background: black;
+        color: red;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .n-list-p{
+        display: flex;
+        background: black;
+        color: red;
+        width: 80%;
+        justify-content: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+
+
+    .n-list-main-p{
+        color: green;
+        font-family:'Times New Roman', Times, serif;
+        font-weight: bolder;
+        font-size: x-large;
+    }
+
+    .main-video-section-two{
+        display: flex;
+        margin: auto;
+        position: absolute;
+        top: 190%;
+        bottom: 50%;
+        left: 6%;
+        z-index: -1;
+    }
+
+
+    /* actors/actresses list*/
+
+
+.actors-list{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: absolute;
+    top: 169%;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+
+
+.fig-content{
+    display: flex;
+    margin-left: 5rem;
+    letter-spacing:2px;
+    
+}
+
+
+.actors-list-2{
+    color: var(--color-3);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: absolute;
+    bottom: -215%;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+
+
+
+/* movie news */
+
+
+.movie-news-img{
+    display: flex;
+    width: 82%;
+    height: 24rem;
+    border-radius: 25px;
+}
+
+.movie-news-list{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: center;
+    top: 140rem;
+    z-index: -1;
+    overflow: hidden;
+    left: 10rem;
+}
+
+.movie-news-text{
+    display: flex;
+    width: 68%;
+    margin-left: 3rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: royalblue;
+    font-family: roboto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: large;
+}
+
+
+/* footer fo the movie section */
+
+footer{
+
+    background: linear-gradient(
+         brown 20%,
+         green
+    );
+    height: 15rem;
+    margin-top: 200rem;
+    z-index: -100;
+    width: 100%;
+}
+
+.first-link{
+    position: absolute;
+    margin-top: 2.5%;
+}
+
+
+
+.main-links{
+    color: #fff ;
+    margin-top: 8%;
+    font-size: larger;
+    font-size: 100%;
+}
+
+.link-div{
+    display: flex;
+    position: relative;
+    left: 17%;
+    top: 19.5%;
+}
+
+.link-div > p{
+    display: flex;
+    position: relative;
+    left: 1.3%;
+    font-size: x-large;
+    color: var(--background-3);
+    font-weight: 800;
+    cursor: pointer;
+}
+
+
+.link-div-two{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 8%;
+}
+
+
+.link-div-two>p{
+    display: flex;
+    position: relative;
+    font-size: x-large;
+    right: .2%;
+    color: var(--background-3);
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.main-links-two{
+    color: #fff ;
+    margin-top: 8%;
+    font-size: larger;
+    font-size: 100%;
+}
+
+
+.SOCIAL-LINKS{
+    color: #fff ;
+    margin-top: 0%;
+    font-size: larger;
+    font-size: 100%;
+}
+.link-div-three{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: -.5%;
+    left: 35%;
+}
+
+
+
+.first-link-icons{
+    display: flex;
+    gap: 2.4rem;
+}
+
+
+.netflex{
+    display: flex;
+    position: absolute;
+    left: 5%;
+    bottom: -423%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.footer-logo-container{
+    display: flex;
+    margin-left: 76%;
+    margin-top: 5%;
+    margin-bottom: .5%;
+}
+
+#footer-img{
+   width: 35px;
+   height: 40px;
+}
+.footer-img-text{
+    color: var(--light-color-2);
+    margin-top: 5px;
+}
+
+/* styling for the genre list */
+
+
+.movie-genre-list{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 57%;
+    left: 5%;
+    z-index: -1;
+    gap: 2rem;
+}
+
+.genre-fieldset{
+    display: flex;
+    border-radius: 1.3rem;
+    gap: 1rem;
+    width: 99%;
+    background: whitesmoke;
+    border: 2px solid whitesmoke;
+}
+
+
+.genre-img{
+    display: flex;
+    width: 3.65%;
+    height: 3%;
+    border-radius: .4rem;
+    left: .5rem;
+    top: .1rem;
+    position: relative;
+}
+
+.fig-p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: large;
+    color: green;
+}
+
+.genre-figcaption{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: black;
+}
+
+
+H2{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 4%;
+    color: var(--color-2);
+    font-weight: bold;
+    font-size: xx-large;
+    cursor: pointer;
+    z-index: -2;
+}

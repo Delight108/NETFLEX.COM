@@ -1,0 +1,1175 @@
+
+*{ 
+    margin:0;
+    padding: 0;  
+}
+
+body{
+   overflow-x: hidden;
+}
+
+a{
+    
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* for the navigation or header section*/
+
+/* this is the header's bakground image */
+#nav{
+    background-image: url("/images/HOME\ BG/pexels-rahul-pandit-1659038.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+}
+.blue{
+    color: blue;
+    background-color: transparent;
+    position: relative;
+}
+
+ul{
+    list-style: none;
+}
+
+.search-btn{
+    display: flex;
+    z-index: -1;
+    position: fixed;
+    top: 16%;
+    width: 80%;
+    left: 14%;
+    border: 3px solid black;
+    border-radius: 15px;
+    font-size: 1rem;
+    color: purple;
+    overflow: hidden;
+    font-weight: 500;
+    background-color: #fff;
+}
+
+.search-button{
+    display: flex;
+    background: transparent;
+    width: 4%;
+    height: 1%;
+    outline: -1;
+    border: 0;
+}
+
+              
+.search-button-menu{
+    display: flex;
+    background: transparent;
+    width: 10%;
+    height: 1%;
+    outline: -1;
+    border: 0;
+}
+
+
+
+
+/* the h1 element */
+#icon{
+    color: aqua;
+    position: absolute;
+    bottom: 9%;
+    left: 11%;  
+    cursor: pointer;
+}
+
+/* for the img(the n logo)*/
+.logo{
+    height: 3rem;
+    width: 3rem;
+    position: absolute;
+    left: 7%;
+    cursor: pointer;
+}
+
+#main-img{
+    top: .7rem;
+}
+
+/* for the ul items*/
+.menu{
+    gap: 1rem;
+    color: whitesmoke;
+}
+
+#first-list{
+    display: flex;
+    position: fixed;
+    top: 4%;
+    left: 65%;
+}
+
+
+
+.menu::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: white;
+    display: block;
+    margin: auto;
+    transition: 0.3s;
+}
+
+li ul:hover::after{
+    width: 100%;
+    
+}
+/* the menu bar*/
+.fa-bars {
+   margin-top: .8rem; 
+   margin-left: .5rem;
+}
+/* end of the header code*/
+
+/*side navigation code*/
+.sidenav{
+    background-color: rgb(74, 40, 167);
+    width: 3.4%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    top: 3.7rem;
+    /*z-index: ;*/
+    
+}
+
+.sidenav:hover{
+    display: flex;
+    width: 4.4%;
+}
+
+.side{
+    display: flex;
+    flex-direction: column;  
+    color: aliceblue;
+    
+}
+
+.fa-home{
+    margin-top: 7rem;
+    margin-left: .6rem;
+}
+
+.fa-video-camera{ 
+    margin-top: 12.9rem;
+    margin-left: -2rem;
+}
+
+.fa-music{
+    margin-top: 19.7rem;
+    margin-left: -1.9rem; 
+}
+
+
+.fa-newspaper-o{
+    margin-left: -2.1rem; 
+    margin-top: 26rem; 
+    color: #fff; 
+}
+
+.fa-envelope-o{
+    margin-left: -1.3rem; 
+    margin-top: 29.4rem; 
+    color: #fff;
+    visibility: hidden; 
+}
+
+
+.invisible{
+    visibility: hidden;
+}
+
+
+.t-third{
+    display: flex;
+    position: absolute;
+    top: -.5rem;
+    left: 110%;
+    width: 100%;
+    overflow-x: hidden;
+   z-index: -1;   
+}
+
+.slide-img{
+    margin-left: 1rem;
+    z-index: -1;
+}
+
+
+.top-img{
+    display: flex;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    width: 40rem;
+    height: 16rem;
+    z-index: -1;
+}
+
+.top-img-2{
+    display: flex;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    width: 40rem;
+    height: 16rem;
+    z-index: -1;
+}
+
+.t-text{
+    margin-top: 4.5rem;
+    margin-left: 1rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#top-image{
+    display: flex;
+    z-index: -1;
+}
+
+
+
+/*MUSIC SECTION IN THE HOME PAGE*/
+.musics{
+    margin-top: 9rem;
+    border-style: solid;
+    border-color: black;
+    border-width: 4PX;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 0;
+    width: 70%;   
+}
+
+
+
+
+
+
+.figcaption{
+    display: flex;
+    align-items: center;
+    margin-left: 3.5rem; 
+    gap: 1rem;   
+}
+
+.img{
+    width: 19rem;
+    height: 20rem;
+    margin-bottom: 2.5rem;
+}
+
+.text{
+    font-weight: 900;
+    font-size: 1.2rem;
+    color: cadetblue;
+}
+
+.artists{
+    display: flex;
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 3rem;
+    height: 65%;
+    width: 28%;
+    left: 71%;
+    top: 90%;
+    overflow: hidden;
+    z-index: -1;   
+}
+
+.musicians{
+    border: 2px;
+    border-color: blueviolet;
+    border-style: solid;
+    border-radius: 9px;
+    width: fit-content;
+    height: fit-content;
+    
+}
+
+.first{
+    display: flex;
+    position: absolute;
+    top: 2.5rem;
+    gap: 1rem;
+    left: 1.2rem;
+    font-weight: bold; 
+    font-style: italic;
+}
+
+.second{
+    display: flex;
+    position: absolute;
+    top: 6rem;
+    left: .8rem;
+    gap: 1.2rem;
+    font-size: 13px;
+    font-weight:bolder;
+    font-style: italic;
+}
+
+.third{
+    display: flex;
+    position: absolute;
+    top: 9rem;
+    left: .6rem;
+    font-style: italic;
+    font-weight: bold;
+    gap: .5rem;
+}
+
+.fourth{
+    display: flex;
+    position: absolute;
+    top: 12.2rem;
+    left: 1.6rem;
+    font-style: italic;
+    font-weight: bold;
+    gap: .5rem;
+}
+
+.fifth{
+    display: flex;
+    position: absolute;
+    top: 15.3rem;
+    left: .7rem;
+    font-style: italic;
+    font-weight: bold;
+    gap: 1.2rem; 
+}
+
+.sixth{
+    display: flex;
+    position: absolute;
+    top: 18.3rem;
+    left: 1.3rem;
+    font-style: italic;
+    font-weight: bold;
+    gap: 1rem; 
+}
+
+.seventh{
+    display: flex;
+    position: absolute;
+    top: 21.3rem;
+    left: 1.3rem;
+    font-style: italic;
+    font-weight: bold;
+    gap: 1rem; 
+}
+
+.eighth{
+    display: flex;
+    position: absolute;
+    top: 24.3rem;
+    left: 6.3rem;
+    font-style: italic;
+    font-weight: bold;
+    gap: 1rem; 
+}
+
+.see-more{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    margin-top: 3rem;
+    border: 3px solid black;
+    border-radius: 3rem;
+    font-weight: bold;
+    width: 7rem;
+    justify-content: center;      
+}
+
+
+.see-more:hover{
+    width: 8rem;
+    background-color: red;
+    text-decoration: underline;
+}
+
+
+.ad{
+    display: flex;
+    position: absolute;
+    left: 78%;
+    z-index: -1;
+}
+
+.first-ad{
+    margin-top: -70rem;
+    background: aliceblue;
+    height: 6rem;
+    width: 15rem;
+    text-align: center;
+    align-items: center;
+}
+
+.first-ad>p{
+    margin-top: 2.5rem;
+}
+
+.video-img{
+    margin-top: 10rem;
+    margin-left: 3rem;
+    
+}
+
+H2{
+    display: flex;
+    margin-bottom: .5rem;
+    font: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: grey;
+    font-size: 15px;
+}
+
+.column{
+    width: 17rem;
+    height: 20rem;
+    justify-content: space-evenly;
+    
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    scroll-behavior: smooth;
+    overflow-y: hidden;
+    gap: 2rem;
+}
+
+.caption{
+   text-align: center;
+   gap: 2rem;
+   font-weight: bold;
+}
+
+.caption-a{
+    color: chocolate;
+}
+
+.fa-arrow-right{
+    display: flex;
+    margin-top: 8rem;
+}
+
+.news{
+   margin-top: 12rem;
+}
+
+.col{
+    display: flex;
+    margin-top: 4rem;
+    margin-left: .1rem;
+    margin-bottom: 10rem;
+    text-align: center;
+    width: 1rem;
+}
+
+.news-text{
+    color: green;
+    font-weight: bold;
+    font-size: 1.9rem;
+}
+
+
+
+.big-image{
+    display: flex;
+    width: 20rem;
+    height: 23rem;
+}
+
+.row-2{
+    display: flex;
+    background: #efefef;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    position: relative;
+    width: 18.5rem;
+    height: 6rem;
+    top: -39rem;
+    left: 19.6rem;
+    z-index: -1;
+    
+}
+
+.text-2{
+    position: absolute;
+  top: 1rem;
+  left: 8rem;
+
+}
+
+
+.trend{
+    width: 7rem;
+    height: 6rem;
+}
+
+.tech{
+    width: 47%;
+    border: 4px solid navy;
+    position: absolute;
+    left: 3.2rem;
+    z-index: -1;
+    height: 34rem;
+    border-radius: 1.5rem;
+    background: cornflowerblue;
+}
+
+
+.health{
+    left: 44.2rem;
+}
+
+.top-text{
+    display: flex;
+    position: absolute;
+    background: cyan;
+    height: 2rem;
+    border-top-left-radius: 1rem;
+}
+
+.top-text > p{
+   width: 5rem; 
+   text-align: center;
+   margin: auto;
+   font-weight: bold;
+   color: red;
+   cursor: pointer;
+}
+
+.another-ad{
+    visibility: hidden;
+}
+
+.politics{
+    left: unset;
+    width: 47%;
+    margin-top: 40rem;
+    border: 4px solid navy;
+    position: absolute;
+    left: 3.2rem;
+    z-index: -1;
+    height: 34rem;
+    border-radius: 1.5rem;
+    background: red;
+}
+
+
+.science{
+    left: unset;
+    width: 45%;
+    margin-top: 40rem;
+    border: 4px solid navy;
+    position: absolute;
+    left: 45rem;
+    z-index: -1;
+    height: 34rem;
+    border-radius: 1.5rem;
+    background: green;
+}
+
+
+.reset{
+    display: flex;
+    background: #efefef;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    position: relative;
+    width: 17rem;
+    height: 6rem;
+    top: -39rem;
+    left: 19.6rem;
+    z-index: -1; 
+}
+
+
+/* footer fo the home section */
+
+footer{
+
+    background: linear-gradient(
+         brown 20%,
+         green
+    );
+    height: 15rem;
+    margin-top: 95rem;
+    z-index: -100;
+    width: 100%;
+}
+
+.first-link{
+    position: absolute;
+    margin-top: 2.5%;
+}
+
+
+
+.main-links{
+    color: #fff ;
+    margin-top: 8%;
+    font-size: larger;
+    font-size: 100%;
+}
+
+.link-div{
+    display: flex;
+    position: relative;
+    left: 17%;
+    top: 19.5%;
+}
+
+.link-div > p{
+    display: flex;
+    position: relative;
+    left: 1.3%;
+    font-size: x-large;
+    color: var(--background-3);
+    font-weight: 800;
+    cursor: pointer;
+}
+
+
+.link-div-two{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 8%;
+}
+
+
+.link-div-two>p{
+    display: flex;
+    position: relative;
+    font-size: x-large;
+    right: .2%;
+    color: var(--background-3);
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.main-links-two{
+    color: #fff ;
+    margin-top: 8%;
+    font-size: larger;
+    font-size: 100%;
+}
+
+
+.SOCIAL-LINKS{
+    color: black ;
+    margin-top: 0%;
+    font-size: larger;
+    font-size: 100%;
+}
+.link-div-three{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: -.5%;
+    left: 35%;
+}
+
+
+
+.first-link-icons{
+    display: flex;
+    gap: 2.4rem;
+}
+
+
+.netflex{
+    display: flex;
+    position: absolute;
+    left: 5%;
+    margin-top: 1%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.footer-logo-container{
+    display: flex;
+    margin-left: 76%;
+    margin-top: 5%;
+    margin-bottom: .5%;
+}
+
+#footer-img{
+   width: 35px;
+   height: 40px;
+}
+.footer-img-text{
+    color: whitesmoke;
+    margin-top: 5px;
+}
+
+.invisible-menu{
+    visibility: hidden;
+}
+
+
+/* media query for mobiles */
+
+
+/*x-small devices (portrait phones, less than 320px(like iphones and google phones))*/
+@media  (max-width: 320px) {
+
+     body{
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    #nav{
+        height: 10%;
+        width: 100%;
+        position: fixed;
+        top: 0%;
+    }
+
+.logo{
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-top: -.5rem;
+    margin-left: 4.5%;
+}
+
+#icon{
+    display: flex;
+    flex-direction: row;
+    color: aqua;
+    position: absolute;
+    bottom: 1%;
+    left: 25%; 
+    font-size: 2rem; 
+}
+
+.search-button-visible{
+    display: flex;
+    position: fixed;
+    left: 87%;
+    top: 3.7%;
+    background: transparent;
+    outline: -1;
+    border: 0;
+}
+
+
+.menu{
+    visibility: hidden;
+}
+  .side{
+    visibility: hidden;
+  }
+
+.sidenav{
+    background-color: rgb(74, 40, 167);
+    width: 10%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    top: 10%;
+    
+}
+
+.sidenav:hover{
+    display: flex;
+    width: 12%;
+}
+
+.invisible{
+    visibility: visible;
+    color: aliceblue;
+    margin-left: -5rem;
+}
+
+.fa-home{
+    margin-top: 6rem;
+    margin-right: 3rem;
+}
+
+
+.fa-video-camera{ 
+    margin-top: 10.3rem;
+    margin-left: -5rem;
+}
+
+.fa-music{
+    margin-top: 14.7rem;
+    margin-left: -5rem; 
+}
+
+.fa-newspaper-o{
+    margin-left: -5.1rem; 
+    margin-top: 19rem; 
+ 
+}
+
+.fa-envelope-o{
+    margin-left: -5rem; 
+    margin-top: 23.3rem; 
+    color: #fff;
+}
+
+
+    li{
+         visibility: hidden;
+    }
+
+    .search-btn{
+        visibility: visible;
+        z-index: 1;
+    }
+
+    .animation{
+        visibility: hidden;
+    }
+
+
+    #section1{
+        margin-top: 45%;
+    }
+    
+
+    .figcaption{
+        display: flex;
+        margin-left: -2%;
+    }
+
+    .musics{
+        margin-top: 0rem;
+        margin-bottom: 40rem;
+        border-style: none;
+        border-color: none;
+        border-width: 0px;
+        border-top: 0;
+        border-left: 0;
+        border-bottom: 0;
+        width: 100%;   
+    }
+
+
+    .img{
+        width: 8.5rem;
+        height: 11rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .figcaption{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 2.5rem; 
+        gap: .5rem;   
+    }
+
+    .text{
+        font-weight: 900;
+        font-size: .6rem;
+        color: cadetblue;
+    }
+
+    .resize{
+        font-size: .5rem;
+    }
+
+
+    .artists{
+        display: flex;
+        position: absolute;
+        border: 2px solid black;
+        border-radius: 3rem;
+        height: 72.4%;
+        width: 84%;
+        left: 13%;
+        margin-top: 125rem;
+        overflow: hidden;
+        z-index: -1;   
+    }
+
+    .first{
+        display: flex;
+        position: absolute;
+        top: 2.5rem;
+        gap: .8rem;
+        left: 1.6rem;
+        font-size: 10px;
+        font-weight: bold; 
+        font-style: italic;
+    }
+
+    .second{
+        left: .8rem;
+        gap: .8rem;
+        font-size: 8.6px;
+        top: 5rem;
+    }
+    
+    .third{
+        left: 1.5rem;
+        font-size: 9px;
+        font-style: italic;
+        font-weight: bold;
+        gap: .5rem;
+        top: 7.7rem;
+    }
+
+    .fourth{
+        top: 9.9rem;
+        left: 2.2rem;
+        gap: .5rem;
+        font-size: 9px;
+    }
+
+    .fifth{
+        top: 12rem;
+        left: .7rem;
+        font-style: italic;
+        font-weight: bold;
+        gap: 1.2rem; 
+        font-size: 10px; 
+    }
+
+    .sixth{
+        top: 14.7rem;
+        left: 1.3rem;
+        font-style: italic;
+        font-weight: bold;
+        gap: 1rem; 
+        font-size: 10px;
+    }
+
+    .seventh{
+        top: 17.3rem;
+        left: 1.3rem;
+        font-style: italic;
+        font-weight: bold;
+        gap: 1rem; 
+        font-size: 11px;
+    }
+
+    .eighth{
+        top: 19.3rem;
+        left: 6.3rem;
+        font-style: italic;
+        font-size: 11px;
+        font-weight: bold;
+        gap: 1rem; 
+    }   
+
+
+    .ad{
+    display: flex;
+    position: absolute;
+    left: 17.5%;
+    z-index: -1;
+}
+
+.first-ad{
+    margin-top: 8%;
+    background: rgb(46, 48, 49);
+    height: 6rem;
+    width: 15rem;
+    text-align: center;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.first-ad > p{
+    color: #efefef;
+}
+
+.see-more{
+    left: 35%;
+    margin-top: 60%;      
+}
+
+.video-img{
+    margin-top: 59rem;
+    margin-left: 12%;
+    
+}
+
+.column{
+    width: 7.9rem;
+    height: 12rem;   
+}
+
+.caption{
+    text-align: center;
+    gap: .7rem;
+    font-weight: bold;
+ }
+
+ .q-change{
+    margin-left: -.2rem;
+    text-align: center;
+ }
+
+
+ .row{
+    gap: .8rem;
+}
+
+.fa-arrow-right{
+    margin-top: 5rem;
+}
+
+.news{
+    margin-top: 29%;
+ }
+
+ .tech{
+    width: 80%;
+    height: 43%;
+    margin-left: -.6rem;
+ }
+
+
+ .col{
+    display: flex;
+    margin-top: 14.5%;
+    margin-left: .3rem;
+    margin-bottom: 10rem;
+    text-align: center;
+    width: 1rem;
+}
+
+ .health{
+    width: 80%;
+    height: 43%;
+    margin-left: -41.7rem;
+
+ }
+
+ #health{
+    margin-top: 19rem;
+
+ }
+
+
+ .big-image{
+    display: flex;
+    width: 8.8rem;
+    height: 8rem;
+} 
+
+.news-text{
+    color: green;
+    font-weight: bold;
+    font-size: .7rem;
+}
+
+.row-2{
+    display: flex;
+    background: #efefef;
+    margin-bottom: 3%;
+    margin-left: 0rem;
+    position: relative;
+    width: 6rem;
+    height: 3rem;
+    top: -20.2rem;
+    left: 9.9rem;
+    z-index: -1;   
+}
+
+.border-resize{
+    border-bottom-right-radius: 8px;
+}
+
+.trend{
+    width: 2rem;
+    height: 3rem;
+}
+
+.text-2{
+    display: block;
+ position: absolute;
+  top: .6rem;
+  left: 2.3rem;
+  width: 50px;
+  font-size: 5px;
+}
+
+.another-ad{
+    visibility: visible;
+    position: absolute;
+    margin-top: 38rem;
+    margin-left: 4rem;
+    background: rgb(46, 48, 49);
+    height: 6rem;
+    width: 15rem;
+    z-index: -1;
+}
+
+.another-ad>p{
+    margin-top: 2rem;
+    margin-left: 2.8rem;
+    color: #efefef;
+}
+
+.politics{
+    width: 80%;
+    height: 43%;
+    margin-left: -.2rem; 
+    margin-top: 50rem;
+}
+
+
+
+
+.science{
+    width: 80%;
+    margin-top: 70rem;
+    left: 3rem;
+    height: 43%;
+    margin-bottom: 2rem;
+}
+
+.reset{
+    margin-bottom: .5rem;
+    margin-left: 0rem;
+    position: relative;
+    width: 37%;
+    height: 3rem;
+    top: -19.7rem;
+    left: 9.9rem;
+    z-index: -1; 
+}
+
+
+footer{
+    margin-top: 110rem;
+    overflow: hidden;
+    height: 30rem;
+}
+
+.not-visible-in-media-query{
+    margin-left: -17rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
