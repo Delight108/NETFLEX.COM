@@ -611,10 +611,15 @@ footer{
     width: 100%;
 }
 
+
+
+
 .first-link{
     position: absolute;
     margin-top: 2.5%;
 }
+
+
 
 
 
@@ -744,7 +749,7 @@ footer{
 .logo{
     height: 2.5rem;
     width: 2.5rem;
-    margin-top: -.5rem;
+    margin-top: -.01rem;
     margin-left: 4.5%;
 }
 
@@ -826,9 +831,9 @@ footer{
 }
 
 
-    li{
+   /* li{
          visibility: hidden;
-    }
+    }*/
 
     .search-btn{
         visibility: visible;
@@ -893,7 +898,7 @@ footer{
         position: absolute;
         border: 2px solid black;
         border-radius: 3rem;
-        height: 72.4%;
+        height: 60%;
         width: 84%;
         left: 13%;
         margin-top: 125rem;
@@ -1151,23 +1156,113 @@ footer{
     z-index: -1; 
 }
 
-
 footer{
-    margin-top: 110rem;
+
+    background: linear-gradient(
+         brown 20%,
+         green
+    );
+    height: 25rem;
+    margin-top: 95rem;
+    z-index: -100;
+    width: 100%;
+    font-size: 70%;
     overflow: hidden;
-    height: 30rem;
+}
+
+.link-div-two>p{
+    display: flex;
+    position: relative;
+    font-size: large;
+    right: .2%;
+    color: var(--background-3);
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.first-link-text{
+    margin-top: -4%;
 }
 
 
 
+.link-div-two{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 50%;
+    left: 2.59%;
+}
 
+.link-div{
+    display: flex;
+    position: relative;
+    left: 37%;
+    top: 14%;
+}
 
+.link-div > p{
+    display: flex;
+    position: relative;
+    left: .7%;
+    font-size: large;
+    color: var(--background-3);
+    font-weight: 800;
+    cursor: pointer;
+}
 
+.netflex{
+    display: flex;
+    position: absolute;
+    left: 77%;
+    top: -50%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    cursor: pointer;
+}
 
+.SOCIAL-LINKS{
+    color: #fff;
+    margin-bottom: 10%;
+    font-size: medium;
+    font-size: 100%;
+}
 
+.link-div-three{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 2%;
+    left: 45%;
+}
 
+.first-link-icons{
+    display: flex;
+    gap: 1.3rem;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: -.5%;
+    right: 38%;
+}
 
+.footer-logo-container{
+    display: flex;
+    position: relative;
+    right: 8rem;
+    margin-top: 99%;
+    margin-bottom: .5%;
+    width: 100%;
+}
 
-
+#footer-img{
+   width: 30px;
+   height: 35px;
+}
+.footer-img-text{
+    color: whitesmoke;
+    margin-top: 15px;
+    font-size: large;
+}
 
 }
