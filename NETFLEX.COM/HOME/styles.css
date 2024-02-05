@@ -728,11 +728,12 @@ footer{
 }
 
 
+
 /* media query for mobiles */
 
 
 /*x-small devices (portrait phones, less than 320px(like iphones and google phones))*/
-@media  (max-width: 375px) {
+@media  (max-width: 320px) {
 
      body{
         overflow-x: hidden;
@@ -1264,6 +1265,551 @@ footer{
     color: whitesmoke;
     margin-top: 15px;
     font-size: large;
+}
+
+}
+
+
+
+
+/*x-small devices (portrait phones, less than 380px
+@media  (min-width: 325px), (max-width: 380px) {
+
+    body{
+       overflow-x: hidden;
+       width: 100%;
+   }
+
+   #nav{
+       height: 10%;
+       width: 100%;
+       position: fixed;
+       top: 0%;
+   }
+
+.logo{
+   height: 2.5rem;
+   width: 2.5rem;
+   margin-top: -.01rem;
+   margin-left: 4.5%;
+}
+
+#icon{
+   display: flex;
+   flex-direction: row;
+   color: aqua;
+   position: absolute;
+   bottom: 1%;
+   left: 23%; 
+   font-size: 2rem; 
+}
+
+.search-button-visible{
+   display: flex;
+   position: fixed;
+   left: 87%;
+   top: 3.7%;
+   background: transparent;
+   outline: -1;
+   border: 0;
+}
+
+
+.menu{
+   visibility: hidden;
+}
+ .side{
+   visibility: hidden;
+ }
+
+.sidenav{
+   background-color: rgb(74, 40, 167);
+   width: 10%;
+   height: 100%;
+   position: fixed;
+   display: flex;
+   top: 10%;
+   
+}
+
+.sidenav:hover{
+   display: flex;
+   width: 12%;
+}
+
+.invisible{
+   visibility: visible;
+   color: aliceblue;
+   margin-left: -5rem;
+}
+
+.fa-home{
+   margin-top: 6rem;
+   margin-right: 3rem;
+}
+
+
+.fa-video-camera{ 
+   margin-top: 10.3rem;
+   margin-left: -5rem;
+}
+
+.fa-music{
+   margin-top: 14.7rem;
+   margin-left: -5rem; 
+}
+
+.fa-newspaper-o{
+   margin-left: -5.1rem; 
+   margin-top: 19rem; 
+
+}
+
+.fa-envelope-o{
+   margin-left: -5rem; 
+   margin-top: 23.3rem; 
+   color: #fff;
+}
+
+
+  /* li{
+        visibility: hidden;
+   }*
+
+   .search-btn{
+       visibility: visible;
+       z-index: 1;
+   }
+
+   .animation{
+       visibility: hidden;
+   }
+
+
+   #section1{
+       margin-top: 45%;
+   }
+   
+
+   .figcaption{
+       display: flex;
+       margin-left: -2%;
+   }
+
+   .musics{
+       margin-top: 0rem;
+       margin-bottom: 40rem;
+       border-style: none;
+       border-color: none;
+       border-width: 0px;
+       border-top: 0;
+       border-left: 0;
+       border-bottom: 0;
+       width: 100%;   
+   }
+
+
+   .img{
+       width: 10.2rem;
+       height: 14rem;
+       margin-bottom: 2.5rem;
+   }
+
+   .figcaption{
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       margin-left: 2.5rem; 
+       gap: .5rem;   
+   }
+
+   .text{
+       font-weight: 900;
+       font-size: .7rem;
+       color: cadetblue;
+   }
+
+   .resize{
+       font-size: .5rem;
+   }
+
+
+   .artists{
+       display: flex;
+       position: absolute;
+       border: 2px solid black;
+       border-radius: 3rem;
+       height: 60%;
+       width: 84%;
+       left: 13%;
+       margin-top: 155rem;
+       overflow: hidden;
+       z-index: -1;   
+   }
+
+   .first{
+       display: flex;
+       position: absolute;
+       top: 2.5rem;
+       gap: .8rem;
+       left: 1rem;
+       font-size: 14px;
+       font-weight: bold; 
+       font-style: italic;
+       width: 100%;
+   }
+
+   .second{
+       left: .6rem;
+       gap: .8rem;
+       font-size: 11px;
+       top: 5rem;
+       width: 100%;
+   }
+   
+   .third{
+       left: .7rem;
+       font-size: 13px;
+       font-style: italic;
+       font-weight: bold;
+       gap: .5rem;
+       top: 7.7rem;
+       width: 100%;
+   }
+
+   .fourth{
+       top: 9.9rem;
+       left: 1.1rem;
+       gap: .5rem;
+       font-size: 14px;
+       width: 100%;
+   }
+
+   .fifth{
+       top: 12rem;
+       left: .7rem;
+       font-style: italic;
+       font-weight: bold;
+       gap: 1.2rem; 
+       font-size: 12px;
+       width: 100%; 
+   }
+
+   .sixth{
+       top: 14.7rem;
+       left: 1.3rem;
+       font-style: italic;
+       font-weight: bold;
+       gap: 1rem; 
+       font-size: 10px;
+   }
+
+   .seventh{
+       top: 17.3rem;
+       left: 1.3rem;
+       font-style: italic;
+       font-weight: bold;
+       gap: 1rem; 
+       font-size: 11px;
+   }
+
+   .eighth{
+       top: 19.3rem;
+       left: 6.3rem;
+       font-style: italic;
+       font-size: 11px;
+       font-weight: bold;
+       gap: 1rem; 
+   }   
+
+
+   .ad{
+   display: flex;
+   position: absolute;
+   left: 17.5%;
+   z-index: -1;
+}
+
+.first-ad{
+   margin-top: 8%;
+   background: rgb(46, 48, 49);
+   height: 6rem;
+   width: 15rem;
+   text-align: center;
+   align-items: center;
+   border-radius: 12px;
+}
+
+.first-ad > p{
+   color: #efefef;
+}
+
+.see-more{
+   left: 35%;
+   margin-top: 60%;    
+   z-index: -1;  
+}
+
+.video-img{
+   margin-top: 59rem;
+   margin-left: 12%;
+   
+}
+
+.column{
+   width: 7.9rem;
+   height: 12rem;   
+}
+
+.caption{
+   text-align: center;
+   gap: .7rem;
+   font-weight: bold;
+}
+
+.q-change{
+   margin-left: -.2rem;
+   text-align: center;
+}
+
+
+.row{
+   gap: .8rem;
+}
+
+.fa-arrow-right{
+   margin-top: 5rem;
+}
+
+.news{
+   margin-top: 29%;
+}
+
+.tech{
+   width: 80%;
+   height: 43%;
+   margin-left: -.6rem;
+}
+
+
+.col{
+   display: flex;
+   margin-top: 14.5%;
+   margin-left: .3rem;
+   margin-bottom: 10rem;
+   text-align: center;
+   width: 1rem;
+}
+
+.health{
+   width: 80%;
+   height: 43%;
+   margin-left: -41.7rem;
+
+}
+
+#health{
+   margin-top: 19rem;
+
+}
+
+
+.big-image{
+   display: flex;
+   width: 8.8rem;
+   height: 8rem;
+} 
+
+.news-text{
+   color: green;
+   font-weight: bold;
+   font-size: .7rem;
+}
+
+.row-2{
+   display: flex;
+   background: #efefef;
+   margin-bottom: 3%;
+   margin-left: 0rem;
+   position: relative;
+   width: 6rem;
+   height: 3rem;
+   top: -20.2rem;
+   left: 9.9rem;
+   z-index: -1;   
+}
+
+.border-resize{
+   border-bottom-right-radius: 8px;
+}
+
+.trend{
+   width: 2rem;
+   height: 3rem;
+}
+
+.text-2{
+   display: block;
+position: absolute;
+ top: .6rem;
+ left: 2.3rem;
+ width: 50px;
+ font-size: 5px;
+}
+
+.another-ad{
+   visibility: visible;
+   position: absolute;
+   margin-top: 38rem;
+   margin-left: 4rem;
+   background: rgb(46, 48, 49);
+   height: 6rem;
+   width: 15rem;
+   z-index: -1;
+}
+
+.another-ad>p{
+   margin-top: 2rem;
+   margin-left: 2.8rem;
+   color: #efefef;
+}
+
+.politics{
+   width: 80%;
+   height: 43%;
+   margin-left: -.2rem; 
+   margin-top: 50rem;
+}
+
+
+
+
+.science{
+   width: 80%;
+   margin-top: 70rem;
+   left: 3rem;
+   height: 43%;
+   margin-bottom: 2rem;
+}
+
+.reset{
+   margin-bottom: .5rem;
+   margin-left: 0rem;
+   position: relative;
+   width: 37%;
+   height: 3rem;
+   top: -19.7rem;
+   left: 9.9rem;
+   z-index: -1; 
+}
+
+footer{
+
+   background: linear-gradient(
+        brown 20%,
+        green
+   );
+   height: 25rem;
+   margin-top: 95rem;
+   z-index: -100;
+   width: 100%;
+   font-size: 70%;
+   overflow: hidden;
+}
+
+.link-div-two>p{
+   display: flex;
+   position: relative;
+   font-size: large;
+   right: .2%;
+   color: var(--background-3);
+   font-weight: 800;
+   cursor: pointer;
+}
+
+.first-link-text{
+   margin-top: -4%;
+}
+
+
+
+.link-div-two{
+   display: flex;
+   position: relative;
+   justify-content: center;
+   top: 50%;
+   left: 2.59%;
+}
+
+.link-div{
+   display: flex;
+   position: relative;
+   left: 37%;
+   top: 14%;
+}
+
+.link-div > p{
+   display: flex;
+   position: relative;
+   left: .7%;
+   font-size: large;
+   color: var(--background-3);
+   font-weight: 800;
+   cursor: pointer;
+}
+
+.netflex{
+   display: flex;
+   position: absolute;
+   left: 77%;
+   top: -50%;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   font-weight: 900;
+   cursor: pointer;
+}
+
+.SOCIAL-LINKS{
+   color: #fff;
+   margin-bottom: 10%;
+   font-size: medium;
+   font-size: 100%;
+}
+
+.link-div-three{
+   display: flex;
+   position: relative;
+   justify-content: center;
+   margin-top: 2%;
+   left: 45%;
+}
+
+.first-link-icons{
+   display: flex;
+   gap: 1.3rem;
+   display: flex;
+   position: relative;
+   justify-content: center;
+   top: -.5%;
+   right: 38%;
+}
+
+.footer-logo-container{
+   display: flex;
+   position: relative;
+   right: 8rem;
+   margin-top: 99%;
+   margin-bottom: .5%;
+   width: 100%;
+}
+
+#footer-img{
+  width: 30px;
+  height: 35px;
+}
+.footer-img-text{
+   color: whitesmoke;
+   margin-top: 15px;
+   font-size: large;
 }
 
 }
