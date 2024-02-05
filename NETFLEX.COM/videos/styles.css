@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+ /*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');*/
 
 
 :root{
@@ -43,7 +43,7 @@ body{
 /* this is the header's bakground image */
 
 #nav{
-    background-image: url("/images/HOME\ BG/pexels-rahul-pandit-1659038.jpg");
+    background-image: url("/NETFLEX.COM/images/HOME BG/pexels-rahul-pandit-1659038.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 60px;
@@ -64,7 +64,7 @@ ul{
 
 .search-btn{
     display: flex;
-    z-index: -1;
+    z-index: 1;
     position: fixed;
     top: 16%;
     width: 80%;
@@ -397,13 +397,21 @@ li ul:hover::after{
 
 /* movie news */
 
-
 .movie-news-img{
     display: flex;
     width: 82%;
     height: 24rem;
     border-radius: 25px;
 }
+
+#add-backgroung-on-hover:hover{
+    margin-left: 5%;
+    margin-bottom: 5%;
+    transition: 1s linear ;
+}
+
+
+
 
 .movie-news-list{
     display: flex;
