@@ -732,7 +732,7 @@ footer{
 
 
 /*x-small devices (portrait phones, less than 320px(like iphones and google phones))*/
-@media  (max-width: 320px) {
+@media  (max-width: 375px) {
 
      body{
         overflow-x: hidden;
@@ -920,7 +920,7 @@ footer{
     .second{
         left: .8rem;
         gap: .8rem;
-        font-size: 8.6px;
+        font-size: 50%;
         top: 5rem;
     }
     
@@ -1000,7 +1000,8 @@ footer{
 
 .see-more{
     left: 35%;
-    margin-top: 60%;      
+    margin-top: 60%;    
+    z-index: -1;  
 }
 
 .video-img{
