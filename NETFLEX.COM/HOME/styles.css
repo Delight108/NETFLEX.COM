@@ -670,8 +670,8 @@ footer{
 
 
 .SOCIAL-LINKS{
-    color: black ;
-    margin-top: 0%;
+    color: #fff;
+    margin-top: 3%;
     font-size: larger;
     font-size: 100%;
 }
@@ -715,6 +715,7 @@ footer{
 .footer-img-text{
     color: whitesmoke;
     margin-top: 5px;
+    font-size: xx-large;
 }
 
 .invisible-menu{
@@ -1157,9 +1158,6 @@ footer{
     height: 30rem;
 }
 
-.not-visible-in-media-query{
-    margin-left: -17rem;
-}
 
 
 
