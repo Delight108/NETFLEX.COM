@@ -38,7 +38,7 @@ ul{
 
 .search-btn{
     display: flex;
-    z-index: -1;
+    z-index: 1;
     position: fixed;
     top: 16%;
     width: 80%;
@@ -141,7 +141,7 @@ li ul:hover::after{
     display: flex;
     top: 3.7rem;
     /*z-index: ;*/
-    
+    transition: 1s;
 }
 
 .sidenav:hover{
@@ -733,7 +733,7 @@ footer{
 
 
 /*x-small devices (portrait phones, less than 320px(like iphones and google phones))*/
-@media  (max-width: 320px) {
+@media  (max-width: 425px) {
 
      body{
         overflow-x: hidden;

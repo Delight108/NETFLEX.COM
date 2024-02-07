@@ -164,7 +164,7 @@ li ul:hover::after{
     display: flex;
     top: 3.7rem;
     /*z-index: ;*/
-    
+    transition: all 1s;
 }
 
 .sidenav:hover{
@@ -402,12 +402,13 @@ li ul:hover::after{
     width: 82%;
     height: 24rem;
     border-radius: 25px;
+    transition: all 1s;
 }
 
 #add-backgroung-on-hover:hover{
-    margin-left: 5%;
-    margin-bottom: 5%;
-    transition: 1s linear ;
+    width: 83.5%;
+    height: 25rem;
+    background-color: black;
 }
 
 
@@ -420,8 +421,8 @@ li ul:hover::after{
     justify-content: center;
     top: 140rem;
     z-index: -1;
-    overflow: hidden;
     left: 10rem;
+
 }
 
 .movie-news-text{
@@ -436,6 +437,7 @@ li ul:hover::after{
     font-weight: 900;
     font-style: normal;
     font-size: large;
+    cursor: pointer;
 }
 
 
